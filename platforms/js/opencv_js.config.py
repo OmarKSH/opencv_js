@@ -94,6 +94,9 @@ imgproc = {
         'fillPoly',
         'fillConvexPoly',
         'polylines',
+
+        # MY ADDITIONS
+        'cornerSubPix',
     ],
     'CLAHE': ['apply', 'collectGarbage', 'getClipLimit', 'getTilesGridSize', 'setClipLimit', 'setTilesGridSize'],
     'segmentation_IntelligentScissorsMB': [
@@ -203,6 +206,12 @@ calib3d = {
         'solvePnPRefineLM',
         'projectPoints',
         'undistort',
+        
+        # MY ADDITIONS
+        'checkChessboard',
+        'findChessboardCorners',
+        'findChessboardCornersSB',
+        'drawChessboardCorners',
 
         # cv::fisheye namespace
         'fisheye_initUndistortRectifyMap',
